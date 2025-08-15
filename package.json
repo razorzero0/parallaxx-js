@@ -1,0 +1,18 @@
+{
+  "name": "parallaxx-js",
+  "version": "1.0.0",
+  "description": "Efek parallax sederhana untuk hero section",
+  "main": "dist/parallax.js",
+  "style": "dist/parallax.css",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "parallax",
+    "vanilla-js",
+    "hero",
+    "cdn"
+  ],
+  "author": "Nama Kamu",
+  "license": "MIT"
+}

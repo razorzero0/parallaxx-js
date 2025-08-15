@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parallax dengan Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/parallaxx-js/dist/parallax.css" />
+
+<body>
+
+    <div class="parallax vh-100" data-speed="0.5" data-image="https://picsum.photos/id/1018/1000/600">
+    <div class="container text-white text-shadow-lg">
+      <h1 class="display-3 fw-bold">Parallax Hero</h1>
+      <p class="lead">A stunning view with a parallax effect.</p>
+    </div>
+  </div>
+
+  <div class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Other Content</h2>
+      <p>This is a content area where you can add text, images, or other elements. The next parallax effect will appear as you scroll down the page.</p>
+    </div>
+  </div>
+
+  <div class="parallax" data-speed="0.2" data-height="500px" data-image="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg">
+    <div class="container text-white text-shadow-lg">
+      <h1 class="display-4 fw-bold">Custom Height</h1>
+      <p class="lead">Height: 500px</p>
+    </div>
+  </div>
+  
+  <div class="bg-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="card-title">Easy to Use</h5>
+              <p class="card-text">Bootstrap classes make styling more efficient.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow">
+            <div class="card-body">
+              <h5 class="card-title">Responsive</h5>
+              <p class="card-text">Automatically adjusts the layout for various devices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/parallaxx-js/dist/parallax.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
